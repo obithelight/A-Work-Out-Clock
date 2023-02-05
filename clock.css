@@ -1,0 +1,29 @@
+body{
+	background: black;
+}
+
+div{
+	position: absolute;
+	color: white;
+	font-family: monospace;
+	font-size: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/*******MEDIA QUERY**********/
+
+/* Desktop first */
+@media (max-width: 1211px) {
+    #clock {
+        letter-spacing: .5rem;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+@media (max-width: 952px) {
+    #clock {
+        letter-spacing: .1rem;
+        font-size: 3rem;
+    }
